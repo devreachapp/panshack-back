@@ -23,7 +23,7 @@ SQLALCHEMY_ENGINE_OPTIONS = {
 class Config:
     SECRET_KEY = os.environ.get("SECRET_KEY", "naso")
                                 
-    SQLALCHEMY_DATABASE_URI = "postgresql://justlink_user:uUb7euQsAIdcAvqKDR5xSdjTTLctAm8P@dpg-dabib2lg1s2s73cqgkfg-a.oregon-postgres.render.com/justlink"
+    SQLALCHEMY_DATABASE_URI = "postgresql://justlink_user:uUb7euQsAIdcAvqKDR5xSdjTTLctAm8P@dpg-dabib2lg1s2s73cqgkfg-a/justlink"
     #SQLALCHEMY_DATABASE_URI = "postgresql://postgres:YardCore94!@localhost:5433/JEROID"
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     # Pagination
