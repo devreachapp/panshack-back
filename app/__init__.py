@@ -153,7 +153,7 @@ def create_app(config_class=Config):
                 "http://localhost:5173",  # Vite default port
                 "http://localhost:8080",  # CRA / Next.js default port
                 "http://10.210.205.29:8080/",
-                "http://127.0.0.1:3000",
+                "https://justlink.app",
             ],
             "allow_headers": ["Content-Type", "Authorization"],
             "methods": ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
