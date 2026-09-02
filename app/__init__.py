@@ -154,6 +154,8 @@ def create_app(config_class=Config):
                 "http://localhost:8080",  # CRA / Next.js default port
                 "http://10.210.205.29:8080/",
                 "https://justlink.app",
+                "https://www.justlink.app",
+                "https://swift-trade-hub.onrender.com/",
             ],
             "allow_headers": ["Content-Type", "Authorization"],
             "methods": ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
